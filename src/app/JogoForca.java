@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 import models.ServidorTCP;
 
 public class JogoForca extends Thread {
-    private static final String ARQUIVO_PALAVRAS = "/home/felipe/Projetos/jogo-forca-tcp/palavras.txt";
+    private static final String ARQUIVO_PALAVRAS = "res/palavras.txt";
     private static final int NUM_ERROS_POSSIVEIS = 5;
     
     private String palavra;
